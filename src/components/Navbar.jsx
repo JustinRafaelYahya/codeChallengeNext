@@ -25,7 +25,6 @@ const Navbar = () => {
             </div>
             <Image
               src={Logo}
-              className="filter invert md:filter-none"
               alt="Blitz Logo"
               className="h-full w-full object-cover invert md:filter-none"
             />
