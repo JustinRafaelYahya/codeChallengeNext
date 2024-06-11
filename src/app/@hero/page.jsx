@@ -11,7 +11,7 @@ import ImgSlider4 from "/public/images/imgslider4.png";
 import Image from "next/image";
 import ButtonPurple from "/src/components/ButtonPurple";
 
-const page = () => {
+const Page = () => {
   return (
     <div>
       <Carousel
@@ -79,4 +79,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

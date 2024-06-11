@@ -7,7 +7,7 @@ import { HiArrowsPointingIn } from "react-icons/hi2";
 import { VscTools } from "react-icons/vsc";
 import OverviewCards from "@/components/OverviewCards";
 
-export default function page() {
+export default function Page() {
   const cards = useState([
     {
       id: 1,
