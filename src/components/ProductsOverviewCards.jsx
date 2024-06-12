@@ -8,6 +8,7 @@ export default function ProductsOverviewCards(props) {
       {products.map((product) => (
         <div
           className={`${product.className} my-8 grid lg:grid-cols-2 gap-8 h-fit rounded-xl`}
+          key={product.id}
         >
           <img
             src={product.productImage}

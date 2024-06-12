@@ -9,18 +9,21 @@ import ProductsOverviewCards from "@/components/ProductsOverviewCards";
 export default function Page() {
   const [productDatas] = useState([
     {
+      id: 1,
       className: "bg-[#cffff0]",
       productImage: "https://i.ibb.co.com/HKx6xqQ/bseries.png",
       title: "Blitz B Series",
       desc: "Build around the emphasis of professional and corporate uses, Blitz B Series use state of the art parts which robust and outstand hours of operation.",
     },
     {
+      id: 2,
       className: "bg-[#cfecff]",
       productImage: "https://i.ibb.co.com/MSY84JT/gseries.png",
       title: "Blitz G Series",
       desc: " The heart and core of a gamer, Blitz G Series is a machine built using parts that fulfill every gamer needs, be it competitive gaming or AAA experience, gain your best performance and experience.",
     },
     {
+      id: 3,
       className: "bg-[#f0cfff]",
       productImage: "https://i.ibb.co.com/hWFQ8xY/sseries.png",
       title: "Blitz S Series",
