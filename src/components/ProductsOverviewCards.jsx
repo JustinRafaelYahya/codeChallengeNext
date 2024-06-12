@@ -10,13 +10,7 @@ export default function ProductsOverviewCards(props) {
           className={`${product.className} my-8 grid lg:grid-cols-2 gap-8 h-fit rounded-xl`}
           key={product.id}
         >
-          <img
-            src={product.productImage}
-            width={400}
-            height={400}
-            className="flex justify-start h-[400px] mx-2"
-            alt="Company Overview Image"
-          />
+          {product.productImage}
           <div>
             <h2 className="flex justify-start ml-6 mt-1 lg:mt-28 text-2xl font-bold">
               {product.title}
