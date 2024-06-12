@@ -1,9 +1,32 @@
+"use client";
+import { useState } from "react";
 import BSeries from "/public/images/bseries.png";
 import GSeries from "/public/images/gseries.png";
 import SSeries from "/public/images/sseries.png";
 import Image from "next/image";
+import ProductsOverviewCards from "@/components/ProductsOverviewCards";
 
 export default function Page() {
+  const [productDatas] = useState([
+    {
+      className: "bg-[#cffff0]",
+      productImage: "https://i.ibb.co.com/HKx6xqQ/bseries.png",
+      title: "Blitz B Series",
+      desc: "Build around the emphasis of professional and corporate uses, Blitz B Series use state of the art parts which robust and outstand hours of operation.",
+    },
+    {
+      className: "bg-[#cfecff]",
+      productImage: "https://i.ibb.co.com/MSY84JT/gseries.png",
+      title: "Blitz G Series",
+      desc: " The heart and core of a gamer, Blitz G Series is a machine built using parts that fulfill every gamer needs, be it competitive gaming or AAA experience, gain your best performance and experience.",
+    },
+    {
+      className: "bg-[#f0cfff]",
+      productImage: "https://i.ibb.co.com/hWFQ8xY/sseries.png",
+      title: "Blitz S Series",
+      desc: " Uncover your potential in the digital world. Blitz S Series is designed to stream, create contents, and multitask in mind. Do everything simultaneously, be the king of flex.",
+    },
+  ]);
   return (
     <div className="py-[4rem] px-4 mx-auto bg-white max-w-[1450px]">
       <h1 className="text-3xl font-bold mb-10">Our Products</h1>
@@ -27,7 +50,8 @@ export default function Page() {
           </button>
         </div>
       </div>
-      <div className=" bg-[#cfecff] grid lg:grid-cols-2 gap-8 h-fit rounded-xl">
+      <ProductsOverviewCards products={productDatas} />
+      {/* <div className=" bg-[#cfecff] grid lg:grid-cols-2 gap-8 h-fit rounded-xl">
         <img
           src={GSeries}
           className="flex justify-start h-[400px] mx-2 lg"
@@ -46,8 +70,8 @@ export default function Page() {
             To Store
           </button>
         </div>
-      </div>
-      <div className="bg-[#f0cfff] my-8 grid lg:grid-cols-2 gap-8 h-fit rounded-xl">
+      </div> */}
+      {/* <div className="bg-[#f0cfff] my-8 grid lg:grid-cols-2 gap-8 h-fit rounded-xl">
         <img
           src={SSeries}
           className=" mt-3 flex justify-start h-[370px] mx-4"
@@ -66,7 +90,7 @@ export default function Page() {
             To Store
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
