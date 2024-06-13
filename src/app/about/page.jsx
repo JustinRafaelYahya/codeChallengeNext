@@ -1,3 +1,3 @@
 export default function About() {
-  return <div className="justify-center m-auto items-center"></div>;
+  return <h1></h1>;
 }

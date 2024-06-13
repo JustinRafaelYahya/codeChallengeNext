@@ -1,5 +1,8 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Overview from "@/components/Overview";
+import ProductsOverview from "@/components/ProductsOverview";
 
 export const metadata = {
   title: "Create Next App",
@@ -12,9 +15,6 @@ export default function RootLayout({ children, hero, overview, products }) {
       <body>
         <Navbar />
         {children}
-        {hero}
-        {overview}
-        {products}
       </body>
     </html>
   );

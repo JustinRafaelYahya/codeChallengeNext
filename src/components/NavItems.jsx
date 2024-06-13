@@ -5,17 +5,17 @@ import Link from "next/link";
 export default function NavItems({ className, listStyle }) {
   const menuList = [
     ["Home", "/"],
-    ["About", "/about"],
-    ["Products", "/products"],
-    ["Teams", "/teams"],
-    ["Contact", "/contact"],
+    ["About", "/about/"],
+    ["Products", "/products/"],
+    ["Teams", "/teams/"],
+    ["Contact", "/contact/"],
   ];
   return (
     <div>
       <nav>
         <ul className={`${className}`}>
           {menuList.map((menu) => (
-            <li className={`${listStyle}`}>
+            <li className={`${listStyle}`} key={menu[0]}>
               <Link href={menu[1]}>{menu[0]}</Link>
             </li>
           ))}
