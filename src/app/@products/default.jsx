@@ -1,7 +1,3 @@
 export default function Default() {
-  return (
-    <div className="py-[4rem] px-4 mx-auto bg-white max-w-[1450px]">
-      <h1>Default Products</h1>
-    </div>
-  );
+  return <h1>Products Home</h1>;
 }

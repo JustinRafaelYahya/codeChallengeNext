@@ -8,7 +8,7 @@ import { VscTools } from "react-icons/vsc";
 import OverviewCards from "@/components/OverviewCards";
 
 export default function Page() {
-  const [cards, setCards] = useState([
+  const [cards] = useState([
     {
       id: 1,
       icon: <FaRegStar className="mx-auto mb-6" size={100} />,

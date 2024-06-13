@@ -1,3 +1,3 @@
 export default function Default() {
-  return <h1>Overview Home</h1>;
+  return <h1>About</h1>;
 }

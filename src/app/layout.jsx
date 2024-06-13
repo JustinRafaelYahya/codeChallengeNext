@@ -11,12 +11,10 @@ export default function RootLayout({ children, hero, overview, products }) {
     <html lang="en">
       <body>
         <Navbar />
-        <div>
-          {children}
-          {hero}
-          {overview}
-          {products}
-        </div>
+        {children}
+        {hero}
+        {overview}
+        {products}
       </body>
     </html>
   );

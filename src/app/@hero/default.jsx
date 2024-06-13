@@ -1,3 +1,3 @@
 export default function Default() {
-  return <h1>Hero Default</h1>;
+  return <h1>Hero Home</h1>;
 }
