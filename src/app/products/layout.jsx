@@ -2,13 +2,10 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import CompanyHistory from "@/components/CompanyHistory";
 
-export default function Layout({ children, productbanner }) {
+export default function Layout({ children, productbanner, productstore }) {
   return (
     <>
-      <main>
-        {children}
-        {productbanner}
-      </main>
+      <main>{children}</main>
     </>
   );
 }

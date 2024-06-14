@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { trailingSlash: true };
+const nextConfig = {
+  images: {
+    domains: ["images.ctfassets.net"],
+  },
+};
 
 export default nextConfig;
