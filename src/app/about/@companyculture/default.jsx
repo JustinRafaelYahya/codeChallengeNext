@@ -1,3 +1,3 @@
 export default function Default() {
-  return <h1>Products Home</h1>;
+  return <h1>Culture About</h1>;
 }

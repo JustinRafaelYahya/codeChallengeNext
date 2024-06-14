@@ -1,13 +1,18 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
-import CompanyHistory from "@/components/CompanyHistory";
 
-export default function Layout({ children, companyhistory }) {
+export default function Layout({
+  children,
+  companyhistory,
+  companyculture,
+  companyteams,
+}) {
   return (
     <>
       <main>
         {children}
         {companyhistory}
+        {companyculture}
+        {companyteams}
       </main>
     </>
   );

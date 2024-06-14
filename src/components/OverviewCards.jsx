@@ -4,7 +4,7 @@ export default function OverviewCards(props) {
   const cards = props.cards;
 
   return (
-    <div className="grid lg:grid-cols-4 gap-8">
+    <div className="grid lg:grid-cols-2 gap-8">
       {cards.map((card) => (
         <div className="flex flex-col p-4 my-4 " key={card.id}>
           {card.icon}

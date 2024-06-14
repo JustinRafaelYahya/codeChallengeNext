@@ -1,3 +1,3 @@
 export default function Default() {
-  return <h1>Hero Home</h1>;
+  return <h1>Teams About</h1>;
 }
