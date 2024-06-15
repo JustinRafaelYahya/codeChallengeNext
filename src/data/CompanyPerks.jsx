@@ -1,7 +1,3 @@
-import { LiaShippingFastSolid } from "react-icons/lia";
-import { FaRegStar } from "react-icons/fa";
-import { HiArrowsPointingIn } from "react-icons/hi2";
-import { VscTools } from "react-icons/vsc";
 export const CompanyPerks = [
   {
     id: 1,

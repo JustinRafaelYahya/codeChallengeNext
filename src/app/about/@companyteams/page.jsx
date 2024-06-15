@@ -5,7 +5,7 @@ import AboutTeamsPageCards from "@/components/AboutPageTeamsCards";
 
 export default function Page() {
   return (
-    <div className="mx-auto bg-white max-w-[1400px] px-3 mt-[4rem] mb-8">
+    <div className="mx-auto bg-white max-w-[1375px] px-6 mt-[4rem] mb-8">
       <h2 className="flex justify-center text-3xl font-bold mb-8">Our Teams</h2>
       <p className="flex justify-center text-center max-w-[1000px] mx-auto mb-2">
         Meet these kindred spirits who passionately integrate themselves with

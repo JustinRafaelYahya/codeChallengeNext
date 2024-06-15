@@ -25,7 +25,7 @@ export default function TeamsCardsTopAboutPage() {
           />
           <div className="text-center">
             <h2 className="border-b font-semibold text-lg my-1 mb-3">
-              {u.name.first} {u.name.last}
+              {u.name.title}. {u.name.first} {u.name.last}
             </h2>
           </div>
         </div>

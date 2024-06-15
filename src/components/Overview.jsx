@@ -11,7 +11,7 @@ export default function Overview() {
   const [cards] = useState(CompanyPerks);
 
   return (
-    <div className="py-[4rem] px-4 mx-auto bg-white max-w-[1400px]">
+    <div className="py-[4rem] mx-auto px-12 bg-white max-w-[1400px]">
       <h2 className="flex justify-center text-3xl font-bold mb-8">
         Why Blitz PC?
       </h2>
@@ -24,7 +24,7 @@ export default function Overview() {
       </div>
       <div className="float-right">
         <Link href="/about/">
-          <LinkPurple className="px-6 my-12">Learn More About Us</LinkPurple>
+          <LinkPurple className="px-6 my-6">Learn More About Us</LinkPurple>
         </Link>
       </div>
     </div>

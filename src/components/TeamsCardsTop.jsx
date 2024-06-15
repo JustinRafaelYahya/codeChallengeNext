@@ -23,7 +23,7 @@ export default function TeamsCardsTop() {
           />
           <div className="text-center">
             <h2 className="font-semibold text-lg my-1 mb-3">
-              {u.name.first} {u.name.last}
+              {u.name.title}. {u.name.first} {u.name.last}
             </h2>
             <p className=" mx-2 text-sm mb-1 text-center">{u.email}</p>
             <p className=" border-b mx-2 pb-2 text-sm mb-2 text-center">
