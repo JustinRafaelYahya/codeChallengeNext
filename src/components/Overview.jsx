@@ -20,7 +20,7 @@ export default function Overview() {
         and gamers up to the content creators. We utilize the state of the art
         as well as the most quality components and technology from the best
         companies such as Intel, AMD, Nvidia, Microsoft, MSI, Samsung, NZXT, and
-        more. From our Costumer Services up to our PC Tecnicians, we
+        more. From our Costumer Services up to our PC Technicians, we
         passionately help you to discover the ultimate experience of your PC.{" "}
       </p>
       <h2 className="flex justify-center text-3xl font-bold mb-8">Our Perks</h2>

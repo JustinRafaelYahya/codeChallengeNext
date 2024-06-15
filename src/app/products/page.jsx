@@ -46,7 +46,7 @@ export default async function Products() {
         <h2 className="flex justify-center text-3xl font-bold md:px-8 mt-32 mb-8">
           Our Products
         </h2>
-        <div className="flex grid md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-20 max-w-[1450px] mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-20 max-w-[1450px] mx-auto">
           {products.map((products) => (
             <ProductCard key={products.sys.id} products={products} />
           ))}

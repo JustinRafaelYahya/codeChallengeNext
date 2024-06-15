@@ -4,6 +4,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import ButtonPurple from "/src/components/ButtonPurple";
 import HeroCarousel from "@/components/HeroCarousel";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -37,7 +38,9 @@ const Hero = () => {
               Best performance, more bang for your bucks
             </h2>
           </div>
-          <ButtonPurple className=" w-[200px]">Get Started</ButtonPurple>
+          <Link href="/products/">
+            <ButtonPurple className=" w-[200px]">Get Started</ButtonPurple>
+          </Link>
         </div>
       </div>
     </div>
