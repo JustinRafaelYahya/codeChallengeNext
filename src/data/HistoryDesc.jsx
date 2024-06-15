@@ -1,0 +1,5 @@
+export const HistoryDesc = [
+  " in Blitz PC, we belief in perfection, unity, ambition and perseverance. These are the fundamental spirits that we implement in ourselves as we work towards delivering our products to you. We always wish to know your needs, put ourselves into that perspective, and deliver the best product to satisfy your need.",
+  "Thus since we were founded in 2000, we strive to to build the best system based on your needs. Even in a time when PCs were not as ubiquitous as they are today, we  keep the spirits alive by giving our customers the highest quality in prebuilt computers.",
+  "Since our estabilishment, we have been working together with the top brands. Three years since we stood, we sealed the partnership with Intel and AMD. Two years after, we tstart to partner with one of the best GPU brand in market, Nvidia. In the most recent, we decided to walk alongside with NZXT in 2021, giving you the most quality AIO and PSU, while also giving you the stylish choices in PC Cases. All above was done to ensure none of our products quality are lacking.",
+];

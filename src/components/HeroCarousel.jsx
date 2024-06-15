@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export default function HeroCarousel() {
   const heroImages = [
-    { image: require("/public/images/imgslider1.png") },
-    { image: require("/public/images/imgslider2.png") },
-    { image: require("/public/images/imgslider3.jpg") },
+    { id: 1, image: require("/public/images/imgslider1.png") },
+    { id: 2, image: require("/public/images/imgslider2.png") },
+    { id: 3, image: require("/public/images/imgslider3.jpg") },
   ];
   return (
     <div className="">
@@ -22,6 +22,8 @@ export default function HeroCarousel() {
         {heroImages.map((img) => (
           <Image
             src={img.image}
+            key={img.id}
+            alt="Blitz PC Hero Images"
             className="w-full h-screen object-cover"
             objectFit="contain"
           />

@@ -8,9 +8,9 @@ export default function Testimonial() {
   const [costumers] = useState(TestimonialsData);
 
   return (
-    <div className="py-[4rem] px-4 mx-auto bg-white max-w-[1450px]">
+    <div className="py-[4rem] px-4 mx-auto bg-white max-w-[1400px]">
       <h2 className="flex justify-center text-3xl font-bold mb-8">
-        What Our Costumers Said??
+        What Our Costumers Said?
       </h2>
       <div className>
         <TestimonialCards

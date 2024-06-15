@@ -1,8 +1,6 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Overview from "@/components/Overview";
-import ProductsOverview from "@/components/ProductsOverview";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Blitz PC",
@@ -15,6 +13,7 @@ export default function RootLayout({ children, hero, overview, products }) {
       <body>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -3,6 +3,8 @@ import { createClient } from "contentful";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { Carousel } from "react-responsive-carousel";
 import ButtonPurple from "@/components/ButtonPurple";
+import LinkPurple from "@/components/LinkPurple";
+import Link from "next/link";
 
 async function getProduct(slug) {
   try {
@@ -27,7 +29,7 @@ export default async function Page({ params }) {
 
   return (
     <section className="grid lg:grid-cols-2  p-4 mt-24 mx-auto max-w-[1450px]">
-      <div className=" mt-4">
+      <div className="mt-12">
         <Carousel
           className="hero-slider"
           autoPlay
@@ -48,8 +50,16 @@ export default async function Page({ params }) {
           ))}
         </Carousel>
       </div>
-      <div className="mx-auto max-w-xl mt-6">
-        <h3 className="text-4xl font-bold">{title}</h3>
+      <div className="mx-6 max-w-xl lg:pl-20">
+        <div className="mx-auto">
+          <Link href="/products/">
+            <LinkPurple className="float-left">
+              ⪡ Back to Products Page
+            </LinkPurple>
+          </Link>
+        </div>
+        <h3 className="text-4xl font-bold mt-10">{title} </h3>
+
         <p className="mt-2 font-semibold mb-8">$ {price}</p>
         <div className="rich-text ">
           {documentToReactComponents(description)}

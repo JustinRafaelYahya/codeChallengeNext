@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Logo from "/public/logo.png";
 import Image from "next/image";
 import NavItems from "./NavItems";
+import Link from "next/link";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -25,11 +26,13 @@ const Navbar = () => {
               )}
             </div>
             <h1>
-              <Image
-                src={Logo}
-                alt="Blitz Logo"
-                className="h-full w-full object-cover invert md:filter-none "
-              />
+              <Link href="/" alt="Home Link">
+                <Image
+                  src={Logo}
+                  alt="Blitz Logo"
+                  className="h-full w-full object-cover invert md:filter-none "
+                />
+              </Link>
             </h1>
           </div>
           <NavItems className="hidden md:flex max-w-[1450px]" listStyle="p-4" />
