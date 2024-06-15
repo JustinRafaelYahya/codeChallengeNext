@@ -42,6 +42,7 @@ export default async function Page({ params }) {
           {gallery.map((img) => (
             <img
               src={`https:${img.fields.file.url}`}
+              key={img.fields.file.url}
               alt="Gallery image."
               width={img.fields.file.details.image.width}
               height={img.fields.file.details.image.height}

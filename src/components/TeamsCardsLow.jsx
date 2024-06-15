@@ -3,7 +3,7 @@ export default function TeamsCardsLow(props) {
   return (
     <div>
       {desc.map((d) => (
-        <div>
+        <div key={d.id}>
           <p className="font-semibold text-center py-2 mx-8">{d.title}</p>
           <p className="text-center py-4 mx-8">{d.desc}</p>
         </div>

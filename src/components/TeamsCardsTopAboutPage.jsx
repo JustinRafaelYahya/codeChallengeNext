@@ -17,7 +17,7 @@ export default function TeamsCardsTopAboutPage() {
   return (
     <div>
       {users.map((u) => (
-        <div>
+        <div key={u.login.uuid}>
           <img
             className="rounded-full w-50 mx-auto bg-white"
             src={u.picture.medium}
