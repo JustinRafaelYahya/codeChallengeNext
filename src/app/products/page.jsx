@@ -1,6 +1,4 @@
 import React from "react";
-import StoreBannerPic from "/public/images/storebanner.png";
-import Image from "next/image";
 import { createClient } from "contentful";
 import ProductCard from "@/components/ProductCard";
 import Testimonial from "@/components/Testimonial";

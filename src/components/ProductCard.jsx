@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import ButtonPurple from "./ButtonPurple";
-import { BLOCKS } from "@contentful/rich-text-types";
 
 export default function ProductCard({ products }) {
   const { title, slug, price, thumbnail, spesifications } = products.fields;

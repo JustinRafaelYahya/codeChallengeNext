@@ -1,8 +1,6 @@
-import Carousel from "react-multi-carousel";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "react-multi-carousel/lib/styles.css";
-import Image from "next/image";
 
 export default function TeamsCardsTopAboutPage() {
   const URL = "https://randomuser.me/api/";

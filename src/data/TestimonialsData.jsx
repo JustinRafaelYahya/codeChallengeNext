@@ -21,7 +21,7 @@ export const TestimonialsData = [
     desc: "  The Blitz B1 I bought is working like a charm. The company doesn't play around and ensure to use the most-quality parts.",
   },
   {
-    id: 3,
+    id: 4,
     name: "Ueda Reina",
     image: require("/public/images/costumer4.jpg"),
     title: "Twitch Streamer",
