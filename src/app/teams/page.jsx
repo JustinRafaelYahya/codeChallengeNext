@@ -5,7 +5,7 @@ import TeamsPageCards from "@/components/TeamsPageCards";
 
 export default function Teams() {
   return (
-    <div className="py-[-10rem] mx-auto bg-white max-w-[1375px]">
+    <div className="py-[-10rem] mx-auto bg-white max-w-[1390px]">
       <div>
         <Image
           src={TeamsImage}

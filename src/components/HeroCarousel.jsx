@@ -10,7 +10,7 @@ export default function HeroCarousel() {
     { id: 3, image: require("/public/images/imgslider3.jpg") },
   ];
   return (
-    <div className="">
+    <div>
       <Carousel
         className="hero-slider"
         autoPlay
@@ -25,7 +25,6 @@ export default function HeroCarousel() {
             key={img.id}
             alt={`Blitz PC Hero Images ${img.id}`}
             className="w-full h-screen object-cover"
-            objectFit="contain"
           />
         ))}
       </Carousel>

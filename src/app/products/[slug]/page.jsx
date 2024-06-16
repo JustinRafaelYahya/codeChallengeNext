@@ -29,7 +29,7 @@ export default async function Page({ params }) {
     products.fields;
 
   return (
-    <section className="grid lg:grid-cols-2  p-4 mt-24 mx-auto max-w-[1450px]">
+    <section className="grid lg:grid-cols-2  p-4 mt-24 mx-auto max-w-[1350px]">
       <div className="mt-12">
         <Carousel
           className="hero-slider"
@@ -74,7 +74,7 @@ export default async function Page({ params }) {
             </li>
           ))}
         </ul>
-        <ButtonPurple className="lg:mt-24 w-full">Purchase</ButtonPurple>
+        <ButtonPurple className="lg:mt-10 w-full">Purchase</ButtonPurple>
       </div>
     </section>
   );

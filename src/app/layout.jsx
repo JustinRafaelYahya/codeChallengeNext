@@ -7,7 +7,7 @@ export const metadata = {
   description: "Best Performance, Best Bang for Bucks.",
 };
 
-export default function RootLayout({ children, hero, overview, products }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
