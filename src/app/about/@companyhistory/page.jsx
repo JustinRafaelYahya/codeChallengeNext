@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import AboutUs from "/public/images/aboutimage.png";
+import AboutUs from "/public/images/aboutimage.avif";
 import { HistoryDesc } from "@/data/HistoryDesc";
 
 export default function Page() {

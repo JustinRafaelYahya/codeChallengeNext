@@ -13,7 +13,7 @@ export default function Page() {
         costumers satisfaction!
       </p>
       <AboutTeamsPageCards
-        className={"mx-6 lg:mx-2 grid md:grid-cols-2 xl:grid-cols-4"}
+        className={"mx-6 lg:mx-4 grid md:grid-cols-2 xl:grid-cols-4"}
       />
     </div>
   );

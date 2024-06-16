@@ -8,7 +8,7 @@ import { TeamMemberDesc4 } from "@/data/TeamMemberDesc4";
 
 export default function TeamsPageCards({ className }) {
   const cardStyle =
-    "w-68 shadow-xl flex flex-col px-2 py-6 my-6 mx-4 rounded-lg";
+    "w-68 shadow-xl flex flex-col px-2 py-6 my-6 mx-4 rounded-lg hover:scale-105 ease-in-out hover:scale-105 ease-in-out duration-300";
   const [member1] = useState(TeamMemberDesc1);
   const [member2] = useState(TeamMemberDesc2);
   const [member3] = useState(TeamMemberDesc3);

@@ -10,7 +10,7 @@ export default function TestimonialCards(props) {
       {costumers.map((costumer) => (
         <div
           key={costumer.id}
-          className="shadow-xl flex flex-col p-4 my-4 mx-4 rounded-lg hover:scale-105 duration-300"
+          className="shadow-2xl flex flex-col p-4 my-4 mx-4 rounded-lg hover:scale-105 ease-in-out duration-300 bg-white"
         >
           <div>
             <Image

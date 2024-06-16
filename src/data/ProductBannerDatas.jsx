@@ -11,7 +11,7 @@ export const ProductBannerDatas = [
     bg: "#cfecff",
     productImage: require("/public/images/gseries.png"),
     title: "Blitz G Series",
-    desc: " The heart and core of a gamer, Blitz G Series is a machine built using parts that fulfill every gamer needs, be it competitive gaming or AAA experience, gain your best performance and experience.",
+    desc: " The heart and core of a gamer, Blitz G Series is a machine built using parts that fulfill every gamer needs, be it competitive gaming or AAA titles, gain your best performance and experience.",
   },
   {
     id: 3,

@@ -5,7 +5,7 @@ import TeamsPageCards from "@/components/TeamsPageCards";
 
 export default function Teams() {
   return (
-    <div className="py-[-10rem] mx-auto bg-white max-w-[1450px]">
+    <div className="py-[-10rem] mx-auto bg-white max-w-[1375px]">
       <div>
         <Image
           src={TeamsImage}
@@ -17,19 +17,17 @@ export default function Teams() {
         <h2 className="flex justify-center text-3xl font-bold md:px-8 mt-10 mb-8">
           Our Team
         </h2>
-        <p className="flex text-center px-8 pb-6">
+        <p className="flex mx-auto text-center px-8 pb-6 max-w-[1000px]">
           Below are the more details of information from our teams. If you ever
           need any help regarding to our services and products, please our
           member below for more informations. They are ready to help you
           anytime!
         </p>
-        <TeamsPageCards className={"grid md:grid-cols-2"} />
+        <TeamsPageCards
+          className={"grid md:grid-cols-2 max-w-[1375px] px-2 mb-12"}
+          cardStyle="w-68 shadow-xl flex flex-col px-8 py-6 my-8 mx-6 rounded-lg"
+        />
       </div>
     </div>
   );
 }
-
-// Meet these kindred spirits who passionately integrate themselves with
-// our belief. They are the leaders, or lets say the field commanders who
-// execute various operations in order to keep us in line. All of them
-// are the experts in the field and will to give their all.

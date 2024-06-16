@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import Overview from "@/components/Overview";
 import ProductsOverview from "@/components/ProductsOverview";
-import Testimonial from "@/components/Testimonial";
+import TaglineAndTestimonial from "@/components/TaglineAndTestimonial";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
       <Hero />
       <Overview />
       <ProductsOverview />
-      <Testimonial />
+      <TaglineAndTestimonial />
     </div>
   );
 };

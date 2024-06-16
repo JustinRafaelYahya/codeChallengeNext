@@ -24,7 +24,7 @@ export default function Overview() {
       </div>
       <div className="float-right">
         <Link href="/about/">
-          <LinkPurple className="px-6 my-6">Learn More About Us</LinkPurple>
+          <LinkPurple className="px-6 my-6">Learn More About Us ⪢</LinkPurple>
         </Link>
       </div>
     </div>

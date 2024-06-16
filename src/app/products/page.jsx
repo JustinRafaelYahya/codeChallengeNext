@@ -3,7 +3,7 @@ import StoreBannerPic from "/public/images/storebanner.png";
 import Image from "next/image";
 import { createClient } from "contentful";
 import ProductCard from "@/components/ProductCard";
-import TestimonialCardsProductsPage from "@/components/TestimonialCardsProductsPage";
+import Testimonial from "@/components/Testimonial";
 
 async function getProducts() {
   try {
@@ -23,11 +23,7 @@ export default async function Products() {
   console.log(products);
   return (
     <div>
-      <Image
-        src={StoreBannerPic}
-        className="object-cover w-full h-screen "
-        alt=""
-      />
+      <Image src={StoreBannerPic} className="object-cover " alt="" />
       <div className="w-full h-screen absolute top-0 left-0">
         <div className=" max-w-[1450px] h-screen px-12 m-auto flex flex-col items-center lg:items-start justify-center text-center lg:text-left">
           <div className="bg-[#d0d3d4] bg-opacity-50 py-4 px-12 rounded-lg lg:bg-opacity-0 lg:py-0 lg:px-0">
@@ -53,10 +49,10 @@ export default async function Products() {
           ))}
         </div>
         <div className="max-w-[1350px] mx-auto my-12">
-          <h2 className="flex justify-center text-3xl font-bold mb-12">
-            Our Costumer's Testimonials
-          </h2>
-          <TestimonialCardsProductsPage />
+          <Testimonial
+            title="What Our Costumers Said?"
+            className="md:bg-white/70 w-fit p-4 rounded-xl mx-auto"
+          />
         </div>
       </div>
     </div>

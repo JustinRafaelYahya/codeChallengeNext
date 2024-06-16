@@ -23,7 +23,7 @@ export default function HeroCarousel() {
           <Image
             src={img.image}
             key={img.id}
-            alt="Blitz PC Hero Images"
+            alt={`Blitz PC Hero Images ${img.id}`}
             className="w-full h-screen object-cover"
             objectFit="contain"
           />

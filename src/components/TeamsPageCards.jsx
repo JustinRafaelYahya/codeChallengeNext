@@ -6,9 +6,7 @@ import { TeamMemberDesc2 } from "@/data/TeamMemberDesc2";
 import { TeamMemberDesc3 } from "@/data/TeamMemberDesc3";
 import { TeamMemberDesc4 } from "@/data/TeamMemberDesc4";
 
-export default function TeamsPageCards({ className }) {
-  const cardStyle =
-    "w-68 shadow-xl flex flex-col px-2 py-6 my-6 mx-2 rounded-lg";
+export default function TeamsPageCards({ className, cardStyle }) {
   const [member1] = useState(TeamMemberDesc1);
   const [member2] = useState(TeamMemberDesc2);
   const [member3] = useState(TeamMemberDesc3);

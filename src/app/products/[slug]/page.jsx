@@ -1,6 +1,7 @@
 "use client";
 import { createClient } from "contentful";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import ButtonPurple from "@/components/ButtonPurple";
 import LinkPurple from "@/components/LinkPurple";
