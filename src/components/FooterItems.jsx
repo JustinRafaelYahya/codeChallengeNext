@@ -16,6 +16,7 @@ export default function FooterItems({ className, listStyle }) {
         />
       ),
       dest: "https://x.com/rafaeljustin92",
+      alt: "Blitz PC X or Twitter Page",
     },
     {
       id: 2,
@@ -26,6 +27,7 @@ export default function FooterItems({ className, listStyle }) {
         />
       ),
       dest: "https://www.facebook.com/justin.rafaelzz/",
+      alt: "Blitz PC Facebook Page",
     },
     {
       id: 3,
@@ -36,6 +38,7 @@ export default function FooterItems({ className, listStyle }) {
         />
       ),
       dest: "https://www.instagram.com/rafaeljustin92/",
+      alt: "Instagram Page Blitz PC",
     },
   ];
   return (
@@ -44,7 +47,7 @@ export default function FooterItems({ className, listStyle }) {
         <ul className={`${className}`}>
           {menuList.map((menu) => (
             <li className={`${listStyle}`} key={menu.id}>
-              <Link href={menu.dest} alt={`Footer menu number ${menu.id}`}>
+              <Link href={menu.dest} alt={menu.alt}>
                 {menu.icon}
               </Link>
             </li>

@@ -21,7 +21,9 @@ export default function TeamsCardsTopAboutPage() {
           <img
             className="rounded-full w-50 mx-auto bg-white"
             src={u.picture.medium}
-            alt="/"
+            width={80}
+            height={80}
+            alt={`${u.name.first}${u.name.last}`}
           />
           <div className="text-center">
             <h2 className="border-b font-semibold text-lg my-1 mb-3">

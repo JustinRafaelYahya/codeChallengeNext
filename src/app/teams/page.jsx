@@ -11,6 +11,7 @@ export default function Teams() {
           src={TeamsImage}
           width={600}
           className="px-8 flex mx-auto mt-40 lg:px-6"
+          alt="Blitz PC Its Our Team"
         />
       </div>
       <div className="col-span-2">

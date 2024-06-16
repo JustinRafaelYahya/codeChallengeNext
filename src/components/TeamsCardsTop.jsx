@@ -16,9 +16,11 @@ export default function TeamsCardsTop() {
       {users.map((u) => (
         <div key={u.login.uuid}>
           <img
-            className="rounded-full w-50 mx-auto bg-white"
+            className="rounded-full mx-auto bg-white"
             src={u.picture.medium}
-            alt="/"
+            width={80}
+            height={80}
+            alt={`${u.name.first}${u.name.last}`}
           />
           <div className="text-center">
             <h2 className="font-semibold text-lg my-1 mb-3">

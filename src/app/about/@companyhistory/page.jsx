@@ -18,6 +18,7 @@ export default function Page() {
             width={500}
             height={500}
             className="flex mt-[-1rem]"
+            alt="Blitz PC Its About US"
           />
         </div>
         <div className="px-2 mt-4 lg:col-span-2">
