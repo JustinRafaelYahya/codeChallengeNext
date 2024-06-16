@@ -26,7 +26,7 @@ export default function ProductsOverviewCards({ products }) {
               {product.desc}
             </p>
             <Link href="/products/">
-              <ButtonPurple className="flex mx-auto lg:mx-6 mt-2">
+              <ButtonPurple className="flex mt-12 w-5/6 lg:w-fit mx-auto lg:mx-6 lg:mt-2 ">
                 To Store
               </ButtonPurple>
             </Link>
