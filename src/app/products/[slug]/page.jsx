@@ -6,6 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 import ButtonPurple from "@/components/ButtonPurple";
 import LinkPurple from "@/components/LinkPurple";
 import Link from "next/link";
+import Image from "next/image";
 
 async function getProduct(slug) {
   try {
@@ -32,7 +33,7 @@ export default async function Page({ params }) {
     <section className="grid lg:grid-cols-2  p-4 mt-24 mx-auto max-w-[1350px]">
       <div className="mt-12">
         <Carousel
-          className="hero-slider"
+          className="w-4/6 mx-auto my-20"
           autoPlay
           infiniteLoop
           interval={5000}
@@ -41,13 +42,12 @@ export default async function Page({ params }) {
           showStatus={false}
         >
           {gallery.map((img) => (
-            <img
+            <Image
               src={`https:${img.fields.file.url}`}
               key={img.fields.file.url}
               alt="Gallery image."
               width={img.fields.file.details.image.width}
               height={img.fields.file.details.image.height}
-              className="h-full w-full object-cover "
             />
           ))}
         </Carousel>
